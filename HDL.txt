@@ -1,0 +1,35 @@
+ _________________________          _________________________
+|                         |        |                         |
+|       TravelPackage     |        |         Passenger        |
+|_________________________|        |_________________________|
+|  - name: String         |        |  - name: String          |
+|  - passengerCapacity:   |        |  - passengerNumber: int |
+|     int                 |        |  - passengerType:       |
+|  - itinerary: List<     |        |     PassengerType       |
+|     Destination>        |        |_________________________|
+|  - passengers: List<   |        |                         |
+|     Passenger>          |        |_________________________|
+|_________________________|                /           \
+          |                               /             \
+          |                         _______________________
+          |                        |                       |
+          |                        |      Destination      |
+          |                        |_______________________|
+          |                        |  - name: String       |
+          |                        |  - activities: List< |
+          |                        |      Activity>        |
+          |                        |_______________________|
+          |                                /         \
+          |                               /           \
+          |                     ___________________     \
+          |                    |                   |     |
+          |                    |      Activity     |     |
+          |                    |___________________|     |
+          |                    |  - name: String   |     |
+          |                    |  - description:  |     |
+          |                    |     String        |     |
+          |                    |  - cost: double   |     |
+          |                    |  - capacity: int  |     |
+          |                    |___________________|     |
+          |                                             |
+          |_____________________________________________|
