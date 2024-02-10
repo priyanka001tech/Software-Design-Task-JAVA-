@@ -1,5 +1,5 @@
  ________________________________________________
-|                        TravelPackage           |
+|                  TravelPackage                 |
 |________________________________________________|
 | - name: String                                  |
 | - passengerCapacity: int                        |
